@@ -1,0 +1,912 @@
+{
+  "SENSOR_TYPES": [
+    {
+      "key": "temperature",
+      "label": "Temperature",
+      "unit": "°C"
+    },
+    {
+      "key": "humidity",
+      "label": "Humidity",
+      "unit": "%"
+    },
+    {
+      "key": "light",
+      "label": "Light",
+      "unit": "lux"
+    }
+  ],
+  "DEVICES": [
+    {
+      "name": "LED 1",
+      "type": "sensor",
+      "icon": "thermo"
+    },
+    {
+      "name": "LED 2",
+      "type": "sensor",
+      "icon": "drop"
+    },
+    {
+      "name": "LED 3",
+      "type": "sensor",
+      "icon": "sun"
+    }
+  ],
+  "liveValues": {
+    "temperature": 36.5,
+    "humidity": 63,
+    "light": 412
+  },
+  "CHART_LABELS": [
+    "08:31",
+    "08:32",
+    "08:33",
+    "08:34",
+    "08:35",
+    "08:36",
+    "08:37",
+    "08:38",
+    "08:39",
+    "08:40",
+    "08:41",
+    "08:42",
+    "08:43",
+    "08:44",
+    "08:45"
+  ],
+  "CHART_LABELS_ALT": [
+    "08:46",
+    "08:47",
+    "08:48",
+    "08:49",
+    "08:50",
+    "08:51",
+    "08:52",
+    "08:53",
+    "08:54",
+    "08:55",
+    "08:56",
+    "08:57",
+    "08:58",
+    "08:59",
+    "09:00"
+  ],
+  "CHART_SERIES": {
+    "temperature": {
+      "label": "Temperature (°C)",
+      "color": "#f5222d",
+      "bg": "rgba(245,34,45,0.08)",
+      "data": [
+        24.8,
+        25.1,
+        25,
+        25.4,
+        25.7,
+        25.9,
+        26.1,
+        26,
+        26.3,
+        26.6,
+        26.5,
+        26.8,
+        26.7,
+        26.4,
+        26.5
+      ],
+      "dataAlt": [
+        26.6,
+        26.9,
+        27,
+        26.8,
+        27.1,
+        27.3,
+        27.2,
+        27,
+        26.8,
+        26.9,
+        27.1,
+        27.4,
+        27.2,
+        27,
+        26.9
+      ]
+    },
+    "humidity": {
+      "label": "Humidity (%)",
+      "color": "#1677ff",
+      "bg": "rgba(22,119,255,0.08)",
+      "data": [
+        61,
+        60,
+        62,
+        63,
+        64,
+        63,
+        65,
+        64,
+        66,
+        65,
+        63,
+        64,
+        65,
+        66,
+        64
+      ],
+      "dataAlt": [
+        64,
+        65,
+        66,
+        65,
+        67,
+        68,
+        66,
+        65,
+        67,
+        68,
+        69,
+        67,
+        66,
+        68,
+        67
+      ]
+    },
+    "light": {
+      "label": "Light (lux)",
+      "color": "#faad14",
+      "bg": "rgba(250,173,20,0.08)",
+      "data": [
+        380,
+        395,
+        410,
+        405,
+        420,
+        430,
+        415,
+        425,
+        440,
+        435,
+        420,
+        410,
+        430,
+        445,
+        412
+      ],
+      "dataAlt": [
+        412,
+        425,
+        440,
+        430,
+        450,
+        460,
+        445,
+        435,
+        450,
+        465,
+        455,
+        440,
+        430,
+        445,
+        438
+      ]
+    }
+  },
+  "sensorLog": [
+    {
+      "id": "SR-1001",
+      "type": "temperature",
+      "value": "25.3 °C",
+      "time": "2026-08-15T01:53:00.000Z"
+    },
+    {
+      "id": "SR-1002",
+      "type": "humidity",
+      "value": "67 %",
+      "time": "2026-08-15T01:46:00.000Z"
+    },
+    {
+      "id": "SR-1003",
+      "type": "light",
+      "value": "354.5 lux",
+      "time": "2026-08-15T01:39:00.000Z"
+    },
+    {
+      "id": "SR-1004",
+      "type": "temperature",
+      "value": "25.6 °C",
+      "time": "2026-08-15T01:32:00.000Z"
+    },
+    {
+      "id": "SR-1005",
+      "type": "humidity",
+      "value": "65.7 %",
+      "time": "2026-08-15T01:25:00.000Z"
+    },
+    {
+      "id": "SR-1006",
+      "type": "light",
+      "value": "379 lux",
+      "time": "2026-08-15T01:18:00.000Z"
+    },
+    {
+      "id": "SR-1007",
+      "type": "temperature",
+      "value": "26.3 °C",
+      "time": "2026-08-15T01:11:00.000Z"
+    },
+    {
+      "id": "SR-1008",
+      "type": "humidity",
+      "value": "63.1 %",
+      "time": "2026-08-15T01:04:00.000Z"
+    },
+    {
+      "id": "SR-1009",
+      "type": "light",
+      "value": "419 lux",
+      "time": "2026-08-15T00:57:00.000Z"
+    },
+    {
+      "id": "SR-1010",
+      "type": "temperature",
+      "value": "27.1 °C",
+      "time": "2026-08-15T00:50:00.000Z"
+    },
+    {
+      "id": "SR-1011",
+      "type": "humidity",
+      "value": "60.5 %",
+      "time": "2026-08-15T00:43:00.000Z"
+    },
+    {
+      "id": "SR-1012",
+      "type": "light",
+      "value": "455.7 lux",
+      "time": "2026-08-15T00:36:00.000Z"
+    },
+    {
+      "id": "SR-1013",
+      "type": "temperature",
+      "value": "27.6 °C",
+      "time": "2026-08-15T00:29:00.000Z"
+    },
+    {
+      "id": "SR-1014",
+      "type": "humidity",
+      "value": "59.1 %",
+      "time": "2026-08-15T00:22:00.000Z"
+    },
+    {
+      "id": "SR-1015",
+      "type": "light",
+      "value": "471.9 lux",
+      "time": "2026-08-15T00:15:00.000Z"
+    },
+    {
+      "id": "SR-1016",
+      "type": "temperature",
+      "value": "27.6 °C",
+      "time": "2026-08-15T00:08:00.000Z"
+    },
+    {
+      "id": "SR-1017",
+      "type": "humidity",
+      "value": "59.5 %",
+      "time": "2026-08-15T00:01:00.000Z"
+    },
+    {
+      "id": "SR-1018",
+      "type": "light",
+      "value": "459.9 lux",
+      "time": "2026-08-14T23:54:00.000Z"
+    },
+    {
+      "id": "SR-1019",
+      "type": "temperature",
+      "value": "27.1 °C",
+      "time": "2026-08-14T23:47:00.000Z"
+    },
+    {
+      "id": "SR-1020",
+      "type": "humidity",
+      "value": "61.6 %",
+      "time": "2026-08-14T23:40:00.000Z"
+    },
+    {
+      "id": "SR-1021",
+      "type": "light",
+      "value": "425.4 lux",
+      "time": "2026-08-14T23:33:00.000Z"
+    },
+    {
+      "id": "SR-1022",
+      "type": "temperature",
+      "value": "26.3 °C",
+      "time": "2026-08-14T23:26:00.000Z"
+    },
+    {
+      "id": "SR-1023",
+      "type": "humidity",
+      "value": "64.3 %",
+      "time": "2026-08-14T23:19:00.000Z"
+    },
+    {
+      "id": "SR-1024",
+      "type": "light",
+      "value": "384.5 lux",
+      "time": "2026-08-14T23:12:00.000Z"
+    },
+    {
+      "id": "SR-1025",
+      "type": "temperature",
+      "value": "25.6 °C",
+      "time": "2026-08-14T23:05:00.000Z"
+    },
+    {
+      "id": "SR-1026",
+      "type": "humidity",
+      "value": "66.4 %",
+      "time": "2026-08-14T22:58:00.000Z"
+    },
+    {
+      "id": "SR-1027",
+      "type": "light",
+      "value": "356.6 lux",
+      "time": "2026-08-14T22:51:00.000Z"
+    },
+    {
+      "id": "SR-1028",
+      "type": "temperature",
+      "value": "25.3 °C",
+      "time": "2026-08-14T22:44:00.000Z"
+    },
+    {
+      "id": "SR-1029",
+      "type": "humidity",
+      "value": "66.9 %",
+      "time": "2026-08-14T22:37:00.000Z"
+    },
+    {
+      "id": "SR-1030",
+      "type": "light",
+      "value": "354.8 lux",
+      "time": "2026-08-14T22:30:00.000Z"
+    },
+    {
+      "id": "SR-1031",
+      "type": "temperature",
+      "value": "25.3 °C",
+      "time": "2026-08-14T22:23:00.000Z"
+    },
+    {
+      "id": "SR-1032",
+      "type": "humidity",
+      "value": "67 %",
+      "time": "2026-08-14T22:16:00.000Z"
+    },
+    {
+      "id": "SR-1033",
+      "type": "light",
+      "value": "354.5 lux",
+      "time": "2026-08-14T22:09:00.000Z"
+    },
+    {
+      "id": "SR-1034",
+      "type": "temperature",
+      "value": "25.6 °C",
+      "time": "2026-08-14T22:02:00.000Z"
+    },
+    {
+      "id": "SR-1035",
+      "type": "humidity",
+      "value": "65.7 %",
+      "time": "2026-08-14T21:55:00.000Z"
+    },
+    {
+      "id": "SR-1036",
+      "type": "light",
+      "value": "379 lux",
+      "time": "2026-08-14T21:48:00.000Z"
+    },
+    {
+      "id": "SR-1037",
+      "type": "temperature",
+      "value": "26.3 °C",
+      "time": "2026-08-14T21:41:00.000Z"
+    },
+    {
+      "id": "SR-1038",
+      "type": "humidity",
+      "value": "63.1 %",
+      "time": "2026-08-14T21:34:00.000Z"
+    },
+    {
+      "id": "SR-1039",
+      "type": "light",
+      "value": "419 lux",
+      "time": "2026-08-14T21:27:00.000Z"
+    },
+    {
+      "id": "SR-1040",
+      "type": "temperature",
+      "value": "27.1 °C",
+      "time": "2026-08-14T21:20:00.000Z"
+    },
+    {
+      "id": "SR-1041",
+      "type": "humidity",
+      "value": "60.5 %",
+      "time": "2026-08-14T21:13:00.000Z"
+    },
+    {
+      "id": "SR-1042",
+      "type": "light",
+      "value": "455.7 lux",
+      "time": "2026-08-14T21:06:00.000Z"
+    },
+    {
+      "id": "SR-1043",
+      "type": "temperature",
+      "value": "27.6 °C",
+      "time": "2026-08-14T20:59:00.000Z"
+    },
+    {
+      "id": "SR-1044",
+      "type": "humidity",
+      "value": "59.1 %",
+      "time": "2026-08-14T20:52:00.000Z"
+    },
+    {
+      "id": "SR-1045",
+      "type": "light",
+      "value": "471.9 lux",
+      "time": "2026-08-14T20:45:00.000Z"
+    },
+    {
+      "id": "SR-1046",
+      "type": "temperature",
+      "value": "27.6 °C",
+      "time": "2026-08-14T20:38:00.000Z"
+    },
+    {
+      "id": "SR-1047",
+      "type": "humidity",
+      "value": "59.5 %",
+      "time": "2026-08-14T20:31:00.000Z"
+    },
+    {
+      "id": "SR-1048",
+      "type": "light",
+      "value": "459.9 lux",
+      "time": "2026-08-14T20:24:00.000Z"
+    },
+    {
+      "id": "SR-1049",
+      "type": "temperature",
+      "value": "27.1 °C",
+      "time": "2026-08-14T20:17:00.000Z"
+    },
+    {
+      "id": "SR-1050",
+      "type": "humidity",
+      "value": "61.6 %",
+      "time": "2026-08-14T20:10:00.000Z"
+    },
+    {
+      "id": "SR-1051",
+      "type": "light",
+      "value": "425.4 lux",
+      "time": "2026-08-14T20:03:00.000Z"
+    }
+  ],
+  "historyLog": [
+    {
+      "id": "HS-2001",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-15T01:37:00.000Z"
+    },
+    {
+      "id": "HS-2002",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-15T01:14:00.000Z"
+    },
+    {
+      "id": "HS-2003",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-15T00:51:00.000Z"
+    },
+    {
+      "id": "HS-2004",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-15T00:28:00.000Z"
+    },
+    {
+      "id": "HS-2005",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-15T00:05:00.000Z"
+    },
+    {
+      "id": "HS-2006",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T23:42:00.000Z"
+    },
+    {
+      "id": "HS-2007",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T23:19:00.000Z"
+    },
+    {
+      "id": "HS-2008",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T22:56:00.000Z"
+    },
+    {
+      "id": "HS-2009",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T22:33:00.000Z"
+    },
+    {
+      "id": "HS-2010",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-14T22:10:00.000Z"
+    },
+    {
+      "id": "HS-2011",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-14T21:47:00.000Z"
+    },
+    {
+      "id": "HS-2012",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T21:24:00.000Z"
+    },
+    {
+      "id": "HS-2013",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T21:01:00.000Z"
+    },
+    {
+      "id": "HS-2014",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T20:38:00.000Z"
+    },
+    {
+      "id": "HS-2015",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T20:15:00.000Z"
+    },
+    {
+      "id": "HS-2016",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-14T19:52:00.000Z"
+    },
+    {
+      "id": "HS-2017",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-14T19:29:00.000Z"
+    },
+    {
+      "id": "HS-2018",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T19:06:00.000Z"
+    },
+    {
+      "id": "HS-2019",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T18:43:00.000Z"
+    },
+    {
+      "id": "HS-2020",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T18:20:00.000Z"
+    },
+    {
+      "id": "HS-2021",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T17:57:00.000Z"
+    },
+    {
+      "id": "HS-2022",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-14T17:34:00.000Z"
+    },
+    {
+      "id": "HS-2023",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-14T17:11:00.000Z"
+    },
+    {
+      "id": "HS-2024",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T16:48:00.000Z"
+    },
+    {
+      "id": "HS-2025",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T16:25:00.000Z"
+    },
+    {
+      "id": "HS-2026",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T16:02:00.000Z"
+    },
+    {
+      "id": "HS-2027",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T15:39:00.000Z"
+    },
+    {
+      "id": "HS-2028",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-14T15:16:00.000Z"
+    },
+    {
+      "id": "HS-2029",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-14T14:53:00.000Z"
+    },
+    {
+      "id": "HS-2030",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T14:30:00.000Z"
+    },
+    {
+      "id": "HS-2031",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T14:07:00.000Z"
+    },
+    {
+      "id": "HS-2032",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T13:44:00.000Z"
+    },
+    {
+      "id": "HS-2033",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T13:21:00.000Z"
+    },
+    {
+      "id": "HS-2034",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-14T12:58:00.000Z"
+    },
+    {
+      "id": "HS-2035",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-14T12:35:00.000Z"
+    },
+    {
+      "id": "HS-2036",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T12:12:00.000Z"
+    },
+    {
+      "id": "HS-2037",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T11:49:00.000Z"
+    },
+    {
+      "id": "HS-2038",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T11:26:00.000Z"
+    },
+    {
+      "id": "HS-2039",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T11:03:00.000Z"
+    },
+    {
+      "id": "HS-2040",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-14T10:40:00.000Z"
+    },
+    {
+      "id": "HS-2041",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-14T10:17:00.000Z"
+    },
+    {
+      "id": "HS-2042",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T09:54:00.000Z"
+    },
+    {
+      "id": "HS-2043",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T09:31:00.000Z"
+    },
+    {
+      "id": "HS-2044",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T09:08:00.000Z"
+    },
+    {
+      "id": "HS-2045",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T08:45:00.000Z"
+    },
+    {
+      "id": "HS-2046",
+      "device": "LED 1",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "failed",
+      "time": "2026-08-14T08:22:00.000Z"
+    },
+    {
+      "id": "HS-2047",
+      "device": "LED 2",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "pending",
+      "time": "2026-08-14T07:59:00.000Z"
+    },
+    {
+      "id": "HS-2048",
+      "device": "LED 3",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "loading",
+      "time": "2026-08-14T07:36:00.000Z"
+    },
+    {
+      "id": "HS-2049",
+      "device": "LED 1",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T07:13:00.000Z"
+    },
+    {
+      "id": "HS-2050",
+      "device": "LED 2",
+      "action": "OFF",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T06:50:00.000Z"
+    },
+    {
+      "id": "HS-2051",
+      "device": "LED 3",
+      "action": "ON",
+      "performedBy": "toanndc",
+      "status": "success",
+      "time": "2026-08-14T06:27:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: iot-monitor-backend
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:iot_monitor}?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Ho_Chi_Minh&characterEncoding=UTF-8
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:root}
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: false
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+      continue-on-error: false
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  cors:
+    allowed-origins: ${CORS_ORIGINS:http://localhost:5173,http://localhost:3000}
+  default-user-id: ${DEFAULT_USER_ID:1}
+  device:
+    pending-timeout-seconds: ${PENDING_TIMEOUT:10}
+  chart:
+    default-points: 20
+  mqtt:
+    enabled: ${MQTT_ENABLED:true}
+    # Defaults match the broker the ESP8266 firmware connects to
+    # (../test/sketch_aug17a/sketch_aug17a.ino). Override with env vars when the
+    # broker moves; use MQTT_BROKER_URL=tcp://<lan-ip>:1865 if it is on another host.
+    broker-url: ${MQTT_BROKER_URL:tcp://localhost:1865}
+    username: ${MQTT_USERNAME:toannd135}
+    password: ${MQTT_PASSWORD:b23dccn831}
+    client-id: ${MQTT_CLIENT_ID:iot-backend}
+    qos: 1
+    topics:
+      sensor-data: /esp8266/sensors-data
+      device-control: /esp8266/device-control
+      device-response: /esp8266/device-response
+
+logging:
+  level:
+    com.ptit.iot: INFO
